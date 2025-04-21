@@ -6,7 +6,7 @@
 - Added contact email and LinkedIn link.
 
 ## S3 static website
-**URL:** http://<YOUR-BUCKET>.s3-website-<REGION>.amazonaws.com  
+**URL:** (http://tosinsanda-portfolio.s3-website-us-east-1.amazonaws.com)  
 Static hosting enabled with `index.html` as root document.
 
 ## Bucket policy
@@ -19,7 +19,7 @@ Static hosting enabled with `index.html` as root document.
       "Effect": "Allow",
       "Principal": "*",
       "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::<YOUR-BUCKET>/*"
+      "Resource": "arn:aws:s3:::<tosinsanda-portfolio>/*"
     }
   ]
 }
